@@ -6,7 +6,7 @@ from cartdb import Cart
 # get token from env
 TOKEN = os.environ['TOKEN']
 db = DB('ishim_1/db.json')
-cart = Cart('ishim1/cartdb.json')
+cart = Cart('ishim_1/cartdb.json')
 
 
 def start(update: Update, context: CallbackContext):
